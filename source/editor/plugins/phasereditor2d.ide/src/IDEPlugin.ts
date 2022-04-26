@@ -24,7 +24,7 @@ namespace phasereditor2d.ide {
             super("phasereditor2d.ide");
 
             this._openingProject = false;
-            this._licenseActivated = false;
+            this._licenseActivated = true;
         }
 
         registerExtensions(reg: colibri.ExtensionRegistry) {
